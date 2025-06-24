@@ -6,6 +6,5 @@ Two different approaches were employed to achieve the multi-label classification
 
 # Machine Learning
 To achieve the multi-label classification task with machine learning the Binary Relevance method from the scikit-multilearn library was employed. This technique decomposes the multi-label task into multiple independent binary classification problems—training a separate SVM or RF for each disease. F1 threshold maximization was employed for each individual classifier to find the optimal threshold for identifying each disease. <br /> <br />
-
 This project showcases the use of Python, Deep Learning (TensorFlow and Keras), and Machine Learning (scikit-learn) to great effect.
  
